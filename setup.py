@@ -203,7 +203,7 @@ def setup_extra_options():
 
 setup(
     name = "lxml",
-    version = lxml_version,
+    version = '4.8.0',
     author="lxml dev team",
     author_email="lxml-dev@lxml.de",
     maintainer="lxml dev team",
