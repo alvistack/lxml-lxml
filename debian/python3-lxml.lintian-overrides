@@ -1,0 +1,4 @@
+python3-lxml: copyright-without-copyright-notice
+python3-lxml: initial-upload-closes-no-bugs
+python3-lxml: no-manual-page
+python3-lxml: zero-byte-file-in-doc-directory

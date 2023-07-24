@@ -1,0 +1,5 @@
+python-lxml source: file-without-copyright-information
+python-lxml source: license-problem-md5sum-non-free-file
+python-lxml source: no-debian-changes
+python-lxml source: source-contains-prebuilt-windows-binary
+python-lxml source: source-package-encodes-python-version
