@@ -1,0 +1,31 @@
+Source: python-lxml
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/lxml/lxml/tags
+Vcs-Browser: https://github.com/alvistack/lxml-lxml
+Vcs-Git: https://github.com/alvistack/lxml-lxml.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ cython3,
+ libxml2-dev,
+ libxslt-dev,
+ python3-dev,
+ python3-setuptools,
+ zlib1g-dev,
+
+Package: python3-lxml
+Architecture: amd64
+Description: Pythonic binding for the C libraries libxml2 and libxslt
+ lxml is the most feature-rich and easy-to-use library for processing XML
+ and HTML in the Python language. It's also very fast and memory
+ friendly, just so you know.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,

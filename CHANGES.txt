@@ -25,6 +25,17 @@ Other changes
 * Built with Cython 0.29.37.
 
 
+4.9.3+
+======
+
+* LP#2024343: The validation of the schema file itself is now optional in the
+  ISO-Schematron implementation.  This was done because some lxml distributions
+  discard the RNG validation schema file due to licensing issues.  The validation
+  can now always be disabled with ``Schematron(..., validate_schema=False)``.
+  It is enabled by default if available and disabled otherwise.  The module
+  constant ``lxml.isoschematron.schematron_schema_valid_supported`` can be used
+  to detect whether schema file validation is available.
+
 4.9.3 (2023-07-05)
 ==================
 

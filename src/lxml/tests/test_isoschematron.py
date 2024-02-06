@@ -860,7 +860,7 @@ class ETreeISOSchematronTestCase(HelperTestCase):
 
 def test_suite():
     suite = unittest.TestSuite()
-    suite.addTests([unittest.makeSuite(ETreeISOSchematronTestCase)])
+    suite.addTests([unittest.defaultTestLoader.loadTestsFromTestCase(ETreeISOSchematronTestCase)])
     suite.addTests(doctest.DocTestSuite(isoschematron))
     suite.addTests(
         [make_doctest('../../../doc/validation.txt')])
