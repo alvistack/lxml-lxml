@@ -21,7 +21,6 @@ doc/api/lxml*.rst
 doc/api/_build/
 doc/s5/lxml-ep2008.html
 src/lxml/includes/*/
-src/lxml/includes/lxml-version.h
 src/lxml/*.html
 src/lxml/html/*.c
 src/lxml/_elementpath.c
@@ -35,3 +34,5 @@ src/lxml/lxml.etree_api.h
 src/lxml/objectify.c
 src/lxml/lxml.objectify.c
 src/lxml/sax.c
+
+.pybuild/
