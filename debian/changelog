@@ -1,0 +1,5 @@
+python-lxml (100:5.4.0-1) UNRELEASED; urgency=medium
+
+  * https://github.com/lxml/lxml/releases/tag/lxml-5.4.0
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Wed, 23 Apr 2025 09:57:44 +0800
