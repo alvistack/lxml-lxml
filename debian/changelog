@@ -1,0 +1,5 @@
+python-lxml (100:6.1.2-1) UNRELEASED; urgency=medium
+
+  * https://github.com/lxml/lxml/releases/tag/lxml-6.1.2
+
+ -- Wong Hoi Sing Edison <hswong3i@pantarei-design.com>  Wed, 19 Aug 2026 17:14:59 +0800
